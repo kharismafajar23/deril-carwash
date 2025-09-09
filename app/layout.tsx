@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Outfit, DM_Sans } from "next/font/google";
 import "./globals.css";
+import ResponsifNav from "@/components/Navbar/ResponsifNav";
+import Footer from "@/components/Footer/Footer";
 
 const outfit = Outfit({
   variable: "--font-primary",
@@ -24,9 +26,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={`${outfit.variable} ${dmSans.variable} antialiased`}>
+    <html
+      lang="id"
+      className={`${outfit.variable} ${dmSans.variable} antialiased`}
+    >
+      <body>
+        <ResponsifNav></ResponsifNav>
         {children}
+        <Footer></Footer>
       </body>
     </html>
   );

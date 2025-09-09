@@ -1,8 +1,12 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --color-primary: #2765ED;
+  --primary-text-color: #0E0E0E;
+  --secondary-text-color: #505050;
+  --section-bg-color: #F9FBFC;
+
+  --border-color: #E2E2E2;
 }
 
 @theme inline {
@@ -12,15 +16,54 @@
   --font-mono: var(--font-geist-mono);
 }
 
+@layer base{
+  *{
+    font-family: var(--font-primary);
+  }
+
+  body{
+    color: var(--primary-text-color);
+  }
+
+  .font-secondary{
+    font-family: var(--font-secondary);
+  }
+
+  footer{
+    color: var(--border-color);
+    background-color: #111727;
+  }
+}
+
 @layer components{}
 
 @layer utilities{
   .container{
     @apply px-3 lg:px-0;
   }
+
+  .text-secondary{
+    color: var(--secondary-text-color);
+  }
+
+  .section-bg{
+    background-color: var(--section-bg-color);
+  }
+
+  .border-color{
+    border-color: var(--border-color);
+  }
 }
 
 @utility container {
   margin-left: auto;
   margin-right: auto;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#hero{
+  min-height: 100dvh;
 }
