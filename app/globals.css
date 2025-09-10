@@ -1,12 +1,14 @@
 @import "tailwindcss";
 
-@theme {
+@theme inline{
   --color-primary: #2765ED;
   --color-secondary: #505050;
   --primary-text-color: #0E0E0E;
   --section-bg-color: #F9FBFC;
 
   --border-color: #E2E2E2;
+
+  --font-secondary: "DM Sans", sans-serif;
 
   --animate-fade-in-scale: fade-in-scale 1.75s infinite;
   @keyframes fade-in-scale{
@@ -34,8 +36,8 @@
     color: var(--primary-text-color);
   }
 
-  .font-secondary{
-    font-family: var(--font-secondary);
+  section{
+    @apply py-10 lg:py-25;
   }
 
   footer{
@@ -45,7 +47,6 @@
 }
 
 @layer components{
-
   .btn{
     @apply text-base font-medium rounded-[6px] px-6 py-2.5;
   }
@@ -60,6 +61,18 @@
 
   .hover-up{
     @apply hover:-translate-y-1 transition-all duration-150;
+  }
+
+  .section-subtitle{
+    @apply block text-sm text-primary font-semibold mb-3;
+  }
+
+  .section-title{
+    @apply text-3xl lg:text-4xl font-semibold leading-[135%] mb-4;
+  }
+
+  .section-description {
+    @apply text-sm md:text-base text-secondary font-secondary;
   }
 }
 

@@ -18,7 +18,7 @@ const HeroSection = () => {
                 <br />
                 tanpa bikin kantong kosong
               </h1>
-              <p className="font-secondary text-lg lg:text-xl/9 text-secondary">
+              <p className="text-lg lg:text-xl/9 text-secondary font-secondary">
                 Percayakan mobil & motor Anda pada layanan cuci profesional
                 kami. Bersih maksimal, aman untuk body kendaraan, dan cepat
                 selesai.
