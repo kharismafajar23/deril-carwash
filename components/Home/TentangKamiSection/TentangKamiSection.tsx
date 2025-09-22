@@ -35,7 +35,7 @@ const TentangKamiSection = () => {
             <div className="flex flex-row gap-2 lg:gap-4 mt-5">
               <Link
                 href="#"
-                className="btn btn-primary text-sm flex items-center gap-2 hover-up"
+                className="btn btn-primary text-[13px] md:text-sm flex items-center gap-2 hover-up"
               >
                 <HiOutlineChat size={20} />
                 Hubungi Sekarang
