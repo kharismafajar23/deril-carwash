@@ -65,7 +65,11 @@ const Footer = () => {
               <h3 className="text-white text-xl font-bold mb-3">Kontak</h3>
               <ul>
                 <li className="mb-1.5">
-                  <Link href="#" className="flex flex-row gap-2">
+                  <Link
+                    href="http://wa.me/6285799258195"
+                    target="_blank"
+                    className="flex flex-row gap-2 hover:text-primary transition-all duration-200"
+                  >
                     <div className="w-6 h-6">
                       <TbBrandWhatsapp size={20} />
                     </div>
@@ -73,7 +77,7 @@ const Footer = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" className="flex flex-row gap-2">
+                  <div className="flex flex-row gap-2">
                     <div className="w-6 h-6">
                       <FaLocationDot size={20} />
                     </div>
@@ -81,7 +85,7 @@ const Footer = () => {
                       Demangan, Condongsari, Kec. Banyuurip, Kabupaten
                       Purworejo, Jawa Tengah 54171
                     </p>
-                  </Link>
+                  </div>
                 </li>
               </ul>
             </div>

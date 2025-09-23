@@ -34,14 +34,15 @@ const TentangKamiSection = () => {
             </p>
             <div className="flex flex-row gap-2 lg:gap-4 mt-5">
               <Link
-                href="#"
+                href="http://wa.me/6285799258195"
+                target="_blank"
                 className="btn btn-primary text-[13px] md:text-sm flex items-center gap-2 hover-up"
               >
                 <HiOutlineChat size={20} />
                 Hubungi Sekarang
               </Link>
               <Link
-                href="#"
+                href="#kontak"
                 className="btn btn-secondary text-sm flex items-center gap-2 hover-up"
               >
                 <GrLocation size={20} />

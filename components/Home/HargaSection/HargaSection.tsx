@@ -98,7 +98,8 @@ const HargaSection = () => {
                   </div>
                   <div className="card-footer mt-auto">
                     <Link
-                      href="#"
+                      href="http://wa.me/6285799258195"
+                      target="_blank"
                       className="btn btn-primary flex items-center justify-center gap-1"
                     >
                       <HiOutlineChat size={20} /> Chat Sekarang

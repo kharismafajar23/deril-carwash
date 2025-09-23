@@ -25,13 +25,14 @@ const HeroSection = () => {
               </p>
               <div className="button-hero flex flex-col md:flex-row gap-2 lg:gap-4">
                 <Link
-                  href="#"
+                  href="http://wa.me/6285799258195"
+                  target="_blank"
                   className="btn btn-primary hover-up text-center md:text-start"
                 >
                   Pesan Sekarang
                 </Link>
                 <Link
-                  href="#"
+                  href="#layanan"
                   className="btn btn-secondary flex items-center justify-center gap-1 hover-up"
                 >
                   Layanan Kami <GrFormNextLink className="inline" size={20} />

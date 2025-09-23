@@ -45,7 +45,7 @@ const KontakSection = () => {
               <div>
                 <p className="font-secondary text-secondary">Whatsapp</p>
                 <Link
-                  href="#http://wa.me/6285799258195"
+                  href="http://wa.me/6285799258195"
                   target="_blank"
                   className="font-medium lg:w-1/2"
                 >
