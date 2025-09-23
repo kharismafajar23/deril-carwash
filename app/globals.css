@@ -74,6 +74,8 @@
   .section-description {
     @apply text-sm md:text-base text-secondary font-secondary;
   }
+
+  
 }
 
 @layer utilities{
@@ -102,6 +104,10 @@ html {
 #hero{
   height: 100dvh;
   min-height: 100dvh;
+}
+
+.swiper-pagination-bullet.swiper-pagination-bullet-active{
+  background-color: #2765ED;
 }
 
 @media screen and (max-width: 425px) {

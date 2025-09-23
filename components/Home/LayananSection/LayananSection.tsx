@@ -56,7 +56,7 @@ const LayananSection = () => {
                     <div className="p-3 lg:p-5 border-2 rounded-xl border-color h-full hover-up hover:border-primary hover:shadow-lg hover:shadow-primary/30 group">
                       <Image
                         src={`./images/icon/${item.icon}`}
-                        alt={`Icon ${item.title} - Deril Carwash`}
+                        alt={`Icon ${item.title} - Demangan Carwash`}
                         width={50}
                         height={50}
                         className="mb-2"

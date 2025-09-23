@@ -55,7 +55,7 @@ const HeroSection = () => {
             <div className="relative">
               <Image
                 src={"/images/hero-images.png"}
-                alt="Deril Carwash"
+                alt="Demangan Carwash"
                 className="rounded-lg w-full h-70 md:h-90 lg:h-180 object-cover"
                 width={1000}
                 height={1000}

@@ -95,7 +95,7 @@ const Footer = () => {
       <div className="sub-footer py-3 md:py-4 lg:py-6 border-t-1 border-t-[#505050]">
         <div className="text-center">
           <p className="font-secondary text-sm">
-            @ <span>{currentYear}</span> Deril Carwash - All Right Reserved
+            @ <span>{currentYear}</span> Demangan Carwash - All Right Reserved
           </p>
         </div>
       </div>

@@ -12,7 +12,7 @@ const TentangKamiSection = () => {
           <div className="col-span-12 lg:col-span-6">
             <Image
               src={"/images/tentang-kami-img.png"}
-              alt="Cucian mobil dan motor Deril Carwash"
+              alt="Cucian mobil dan motor Demangan Carwash"
               width={500}
               height={500}
               className="rounded-lg w-full lg:w-3/4 h-60 md:h-85 object-cover"

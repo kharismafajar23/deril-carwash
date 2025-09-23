@@ -83,7 +83,7 @@ const TestimoniSection = () => {
         >
           {testimoni.map((item, index) => {
             return (
-              <SwiperSlide key={index} className="h-full">
+              <SwiperSlide key={index} className="h-full mb-10">
                 <div className="card p-6 rounded-xl border-2 border-color hover:border-primary bg-white transition-colors duration-150 h-full">
                   <div>
                     <div className="flex flex-row gap-1 mb-3">
