@@ -29,7 +29,7 @@ const Footer = () => {
               <ul>
                 <li className="mb-1.5">
                   <Link
-                    href="#"
+                    href="#layanan"
                     className="font-secondary hover:text-primary transition-all duration-200"
                   >
                     Cuci Motor
@@ -37,7 +37,7 @@ const Footer = () => {
                 </li>
                 <li className="mb-1.5">
                   <Link
-                    href="#"
+                    href="#layanan"
                     className="font-secondary hover:text-primary transition-all duration-200"
                   >
                     Cuci Mobil
@@ -45,7 +45,7 @@ const Footer = () => {
                 </li>
                 <li className="mb-1.5">
                   <Link
-                    href="#"
+                    href="#layanan"
                     className="font-secondary hover:text-primary transition-all duration-200"
                   >
                     Cuci Karpet
@@ -53,7 +53,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link
-                    href="#"
+                    href="#layanan"
                     className="font-secondary hover:text-primary transition-all duration-200"
                   >
                     Cuci Lainnya

@@ -18,6 +18,9 @@ export const metadata: Metadata = {
   title: "Demangan Carwash",
   description:
     "Jasa cuci kendaraan terbaik untuk Anda. Kendaraan jadi kinclong, tanpa bikin kantong kosong",
+  icons: {
+    icon: "/images/favicon.png",
+  },
 };
 
 export default function RootLayout({
