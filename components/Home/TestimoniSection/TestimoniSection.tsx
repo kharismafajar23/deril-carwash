@@ -96,7 +96,7 @@ const TestimoniSection = () => {
                       ))}
                     </div>
                   </div>
-                  <p className="text-secondary font-secondary text-justify text-base mb-3">
+                  <p className="text-secondary font-secondary text-justify text-sm md:text-base mb-3">
                     {`"${item.description}"`}
                   </p>
                   <div className="flex flex-row items-center gap-2">

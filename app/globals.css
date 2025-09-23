@@ -64,11 +64,11 @@
   }
 
   .section-subtitle{
-    @apply block text-sm text-primary font-semibold mb-3;
+    @apply block text-sm text-primary font-semibold mb-1 md:mb-3;
   }
 
   .section-title{
-    @apply text-3xl lg:text-4xl font-semibold leading-[135%] mb-4;
+    @apply text-3xl lg:text-4xl font-semibold leading-[135%] mb-2 md:mb-3 lg:mb-4;
   }
 
   .section-description {

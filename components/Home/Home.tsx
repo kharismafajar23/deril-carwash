@@ -4,6 +4,7 @@ import LayananSection from "./LayananSection/LayananSection";
 import TentangKamiSection from "./TentangKamiSection/TentangKamiSection";
 import HargaSection from "./HargaSection/HargaSection";
 import TestimoniSection from "./TestimoniSection/TestimoniSection";
+import KontakSection from "./KontakSection/KontakSection";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <TentangKamiSection></TentangKamiSection>
       <HargaSection></HargaSection>
       <TestimoniSection></TestimoniSection>
+      <KontakSection></KontakSection>
     </>
   );
 };
