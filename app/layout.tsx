@@ -15,7 +15,7 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Deril Carwash",
+  title: "Demangan Carwash",
   description:
     "Jasa cuci kendaraan terbaik untuk Anda. Kendaraan jadi kinclong, tanpa bikin kantong kosong",
 };
