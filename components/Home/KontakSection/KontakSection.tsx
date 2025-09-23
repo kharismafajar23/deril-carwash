@@ -6,7 +6,7 @@ import { GrLocation } from "react-icons/gr";
 
 const KontakSection = () => {
   return (
-    <section>
+    <section id="kontak">
       <div className="container">
         <div className="text-center mb-12">
           <span className="section-subtitle">Butuh Info Lebih Lanjut</span>

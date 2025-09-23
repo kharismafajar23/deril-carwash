@@ -31,7 +31,7 @@ const LayananSection = () => {
   ];
 
   return (
-    <section>
+    <section id="layanan">
       <div className="container">
         <div className="grid grid-cols-12 gap-3">
           <div className="col-span-12 lg:col-span-6">

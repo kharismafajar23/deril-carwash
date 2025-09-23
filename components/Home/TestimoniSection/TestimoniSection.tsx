@@ -46,9 +46,9 @@ const TestimoniSection = () => {
     },
   ];
   return (
-    <section className="section-bg">
+    <section id="testimoni" className="section-bg">
       <div className="container">
-        <div className="text-center mb-12">
+        <div className="text-center mb-6 md:mb-8 lg:mb-12">
           <span className="section-subtitle">Testimoni</span>
           <h2 className="section-title">
             Apa Kata <span className="text-primary">Pelanggan</span> Kami

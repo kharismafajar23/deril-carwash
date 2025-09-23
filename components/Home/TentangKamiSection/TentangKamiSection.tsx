@@ -6,7 +6,7 @@ import { HiOutlineChat } from "react-icons/hi";
 
 const TentangKamiSection = () => {
   return (
-    <section className="section-bg">
+    <section id="tentang-kami" className="section-bg">
       <div className="container">
         <div className="grid grid-cols-12 gap-5">
           <div className="col-span-12 lg:col-span-6">

@@ -43,13 +43,13 @@ const HargaSection = () => {
     },
     {
       title: "Cuci Lainnya",
-      price: "menyesuaikan",
+      price: 0,
       points: [],
       images: "cuci-lainnya.png",
     },
   ];
   return (
-    <section>
+    <section id="harga">
       <div className="container">
         <div className="text-center">
           <span className="section-subtitle">Harga dari kami</span>
@@ -75,7 +75,13 @@ const HargaSection = () => {
                     ></Image>
                     <h3 className="text-2xl font-semibold">{item.title}</h3>
                     <h4 className="text-primary font-semibold text-xl mb-3">
-                      Rp {item.price}
+                      {item.price === 0
+                        ? "Menyesuaikan"
+                        : new Intl.NumberFormat("id-ID", {
+                            style: "currency",
+                            currency: "IDR",
+                            minimumFractionDigits: 0,
+                          }).format(item.price)}
                     </h4>
                     <ul className="flex flex-col gap-1 mb-6">
                       {item.points.map((item, index) => {

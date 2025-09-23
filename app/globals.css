@@ -103,3 +103,9 @@ html {
   height: 100dvh;
   min-height: 100dvh;
 }
+
+@media screen and (max-width: 425px) {
+  #hero{
+    height: calc(100dvh + 100px);
+  }
+}

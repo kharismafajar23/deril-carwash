@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { FaLocationDot } from "react-icons/fa6";
@@ -12,6 +13,13 @@ const Footer = () => {
         <div className="container">
           <div className="grid grid-cols-12 space-y-8">
             <div className="col-span-12 lg:col-span-6">
+              <Image
+                src="/images/demangan-carwash-white.png"
+                alt="Logo Demangan Carwash"
+                width={500}
+                height={500}
+                className="w-50 h-30 object-contain object-left"
+              ></Image>
               <h3 className="font-bold text-white">
                 Cuci Hemat, Hasil Maksimal
               </h3>
@@ -20,22 +28,34 @@ const Footer = () => {
               <h3 className="text-white text-xl font-bold mb-3">Layanan</h3>
               <ul>
                 <li className="mb-1.5">
-                  <Link href="#" className="font-secondary">
+                  <Link
+                    href="#"
+                    className="font-secondary hover:text-primary transition-all duration-200"
+                  >
                     Cuci Motor
                   </Link>
                 </li>
                 <li className="mb-1.5">
-                  <Link href="#" className="font-secondary">
+                  <Link
+                    href="#"
+                    className="font-secondary hover:text-primary transition-all duration-200"
+                  >
                     Cuci Mobil
                   </Link>
                 </li>
                 <li className="mb-1.5">
-                  <Link href="#" className="font-secondary">
+                  <Link
+                    href="#"
+                    className="font-secondary hover:text-primary transition-all duration-200"
+                  >
                     Cuci Karpet
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" className="font-secondary">
+                  <Link
+                    href="#"
+                    className="font-secondary hover:text-primary transition-all duration-200"
+                  >
                     Cuci Lainnya
                   </Link>
                 </li>
