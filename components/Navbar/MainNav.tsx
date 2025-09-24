@@ -67,7 +67,7 @@ const MainNav = ({ openNav }: Props) => {
             className="btn btn-primary hidden lg:flex items-center gap-2 font-bold"
           >
             <BiLogoWhatsapp size="1.4rem" />
-            +6281 1295 1180
+            0857 9925 8195
           </a>
           {/* Mobile menu button */}
           <BiMenu
