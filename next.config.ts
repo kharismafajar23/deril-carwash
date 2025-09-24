@@ -1,12 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: "export",
-  images: {
-    unoptimized: true,
-  },
-  basePath: "/demangan-carwash",
-  assetPrefix: "/demangan-carwash/",
+  reactStrictMode: true, // opsional, recommended
+  swcMinify: true, // untuk build lebih cepat
 };
 
 export default nextConfig;
