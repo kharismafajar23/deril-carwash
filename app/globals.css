@@ -75,7 +75,9 @@
     @apply text-sm md:text-base text-secondary font-secondary;
   }
 
-  
+  .header_logo {
+    @apply w-[60px] h-[35px] lg:w-[100px] lg:h-[40px] object-contain object-top;
+  }
 }
 
 @layer utilities{
@@ -90,6 +92,7 @@
   .border-color{
     border-color: var(--border-color);
   }
+  
 }
 
 @utility container {
