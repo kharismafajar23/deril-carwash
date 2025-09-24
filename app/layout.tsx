@@ -21,6 +21,23 @@ export const metadata: Metadata = {
   icons: {
     icon: "/images/favicon.png",
   },
+  openGraph: {
+    title: "Demangan Carwash",
+    description:
+      "Jasa cuci kendaraan terbaik untuk Anda. Kendaraan jadi kinclong, tanpa bikin kantong kosong",
+    url: "https://demangan-carwash.khonco.com",
+    siteName: "Demangan Carwash",
+    images: [
+      {
+        url: "/share-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Demangan Carwash",
+      },
+    ],
+    locale: "id_ID",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
