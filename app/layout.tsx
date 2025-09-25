@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   description:
     "Jasa cuci kendaraan terbaik untuk Anda. Kendaraan jadi kinclong, tanpa bikin kantong kosong",
   icons: {
-    icon: "/images/favicon.png",
+    icon: "/favicon.ico",
   },
   openGraph: {
     title: "Demangan Carwash",
