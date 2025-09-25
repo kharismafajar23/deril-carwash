@@ -1,5 +1,7 @@
 @import "tailwindcss";
 
+@custom-variant hover (&:hover);
+
 @theme inline{
   --color-primary: #2765ED;
   --color-secondary: #505050;
